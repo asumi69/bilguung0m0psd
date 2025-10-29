@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DuckDuckGo Settings (Concept)</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="top-bar">
+      <a href="index.html" class="top-bar__brand">
+        <span class="logo-mark">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M16.4 7.06c-.53-1.66-1.94-2.86-3.74-3.03-1.33-.12-2.45.25-3.42 1.13-.36.33-.69.72-.97 1.18-.46.73-.39 1.33.21 2 .16.18.16.31.05.52-.39.72-.26 1.4.42 1.88.26.18.53.35.82.49.34.18.41.33.27.69-.18.43-.37.86-.6 1.28-.07.12-.24.22-.38.24-.38.05-.77.05-1.15.06-.3 0-.4.15-.3.42.34.84 1 1.26 1.88 1.44.23.05.35.15.37.38.04.45.1.91.15 1.36.04.31.2.43.5.31.35-.13.7-.3 1.05-.45.18-.07.24-.02.27.16.06.38.14.75.21 1.13.06.32.24.43.54.29.37-.16.74-.33 1.11-.5.17-.08.22-.04.25.15.05.34.12.69.17 1.04.05.37.25.48.57.33.47-.22.94-.45 1.42-.68.17-.08.23-.03.27.15.06.27.12.54.18.82.05.23.2.35.42.32.21-.02.3-.18.36-.35.24-.71.3-1.46.23-2.21-.01-.17.04-.27.19-.35.35-.2.7-.42 1.03-.66.74-.52 1.29-1.21 1.52-2.1.35-1.37.2-2.7-.29-3.99z"
+            />
+          </svg>
+        </span>
+        DuckDuckGo
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="settings.html" aria-current="page">Settings</a>
+        <a href="themes.html">Themes</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-section">
+        <p class="section-heading">Settings</p>
+        <h1 class="section-title">Tailor DuckDuckGo to your privacy needs</h1>
+        <p class="section-lede">
+          This concept page assembles the most-loved options from the DuckDuckGo
+          settings experience. Fine-tune appearance, privacy safeguards, and
+          region preferences to mirror the original site.
+        </p>
+
+        <div class="settings-grid">
+          <article class="settings-card">
+            <h2>General Preferences</h2>
+            <p>
+              Adjust baseline behavior for search, instant answers, and the
+              information shown on result pages.
+            </p>
+            <div class="setting-option">
+              <span>Open links in a new tab</span>
+              <label class="toggle">
+                <input type="checkbox" checked />
+                <span></span>
+              </label>
+            </div>
+            <div class="setting-option">
+              <span>Auto-suggest search terms</span>
+              <label class="toggle">
+                <input type="checkbox" checked />
+                <span></span>
+              </label>
+            </div>
+            <div class="setting-option">
+              <span>Show news module on home</span>
+              <label class="toggle">
+                <input type="checkbox" />
+                <span></span>
+              </label>
+            </div>
+          </article>
+
+          <article class="settings-card">
+            <h2>Privacy Essentials</h2>
+            <p>
+              Core DuckDuckGo protections that reinforce anonymous browsing and
+              keep trackers off your tail.
+            </p>
+            <div class="setting-option">
+              <span>Enable Global Privacy Control</span>
+              <label class="toggle">
+                <input type="checkbox" checked />
+                <span></span>
+              </label>
+            </div>
+            <div class="setting-option">
+              <span>Enforce encrypted connections</span>
+              <label class="toggle">
+                <input type="checkbox" checked />
+                <span></span>
+              </label>
+            </div>
+            <div class="setting-option">
+              <span>Show privacy grade on results</span>
+              <label class="toggle">
+                <input type="checkbox" />
+                <span></span>
+              </label>
+            </div>
+          </article>
+
+          <article class="settings-card">
+            <h2>Region &amp; Appearance</h2>
+            <p>
+              Choose default language, region bias, and the visual styling that
+              best suits your environment.
+            </p>
+            <div class="setting-option">
+              <span>Region: United States (English)</span>
+              <span class="chip">Default</span>
+            </div>
+            <div class="setting-option">
+              <span>Instant answers in chosen language</span>
+              <label class="toggle">
+                <input type="checkbox" checked />
+                <span></span>
+              </label>
+            </div>
+            <div class="setting-option">
+              <span>Autoplay videos in results</span>
+              <label class="toggle">
+                <input type="checkbox" />
+                <span></span>
+              </label>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Inspired by the design of
+      <a href="https://duckduckgo.com" target="_blank" rel="noreferrer"
+        >DuckDuckGo</a
+      >. This is a static HTML &amp; CSS concept recreation.
+    </footer>
+  </body>
+</html>
